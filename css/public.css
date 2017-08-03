@@ -12,16 +12,16 @@
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #f6b319;
+  color: #557c3e;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #f6b319;
+  color: #557c3e;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: #f6b319;
+  color: #557c3e;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: #f6b319;
+  color: #557c3e;
 }
 
 fieldset{padding:.35em .625em .75em;margin:0 2px;
