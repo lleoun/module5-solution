@@ -17,7 +17,7 @@
              
              //the user enters a dish, let's say A1, and with the replace sentence we get the just category name: A 
              $rootScope.cat = $rootScope.dish.replace(/[^a-z]/gi, '').toUpperCase(); 
-
+             $rootScope.dishImage = $rootScope.dish.toUpperCase();
              reg2.$rootScope =$rootScope;
 
              //to get the info of the selected dish 

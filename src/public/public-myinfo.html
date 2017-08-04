@@ -11,14 +11,17 @@
             {{ reg2.$rootScope.email }} <br>
             {{ reg2.$rootScope.phone }}<br><br>
 
-            {{reg2.$rootScope.nombre}}<br>
+            {{reg2.$rootScope.nombre}} ({{ reg2.$rootScope.dishImage }})<br>
             {{reg2.$rootScope.descripcion}}<br><br>
         </div>
 
        <div class="">
             <a href="#">
                 <div id="info4" ng-if="reg2.haydata">
-                    <img width="200" height="200" ng-src="images/menu/{{ reg2.$rootScope.cat }}/{{ reg2.$rootScope.cat }}.jpg" alt="{{ reg2.$rootScope.nombre}}" class="bordeDiorao">                    
+                   <!-- <img width="200" height="200" ng-src="images/menu/{{ reg2.$rootScope.cat }}/{{ reg2.$rootScope.cat }}.jpg" alt="{{ reg2.$rootScope.nombre}}" class="bordeDiorao">--> 
+                    
+                    <img ng-src="https://llion.herokuapp.com/images//{{ reg2.$rootScope.dishImage }}.jpg" alt="{{ reg2.$rootScope.nombre}}" class="bordeDiorao"> 
+                                       
                 </div>
             </a>
         </div>  
